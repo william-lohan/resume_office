@@ -1,0 +1,18 @@
+[gd_resource type="ArrayMesh" load_steps=2 format=2]
+
+[ext_resource path="res://import/resume_office/resume_0_material.tres" type="Material" id=1]
+
+[resource]
+resource_name = "resume_office_resume_0_mesh"
+surfaces/0 = {
+"aabb": AABB( -0.1016, 0, -0.1397, 0.2032, 1e-05, 0.27941 ),
+"array_data": PoolByteArray( 169, 19, 208, 189, 0, 0, 0, 0, 132, 13, 15, 62, 0, 127, 127, 63, 0, 0, 0, 60, 169, 19, 208, 61, 0, 0, 0, 0, 132, 13, 15, 62, 0, 127, 127, 63, 0, 60, 0, 60, 169, 19, 208, 189, 0, 0, 0, 0, 132, 13, 15, 190, 0, 127, 127, 63, 0, 0, 0, 0, 169, 19, 208, 61, 0, 0, 0, 0, 132, 13, 15, 190, 0, 127, 127, 63, 0, 60, 0, 0 ),
+"array_index_data": PoolByteArray( 1, 0, 0, 0, 2, 0, 1, 0, 2, 0, 3, 0 ),
+"blend_shape_data": [  ],
+"format": 2194711,
+"index_count": 6,
+"material": ExtResource( 1 ),
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 4
+}

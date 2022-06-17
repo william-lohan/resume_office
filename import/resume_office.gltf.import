@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Resume Office.gltf-5210d9c0f443629f3fae955d27dcb9af.scn"
+path="res://.import/resume_office.gltf-2efb5d2061970215bdc1abd3a5b66333.scn"
 
 [deps]
 
-source_file="res://import/Resume Office.gltf"
-dest_files=[ "res://.import/Resume Office.gltf-5210d9c0f443629f3fae955d27dcb9af.scn" ]
+source_file="res://import/resume_office.gltf"
+dest_files=[ "res://.import/resume_office.gltf-2efb5d2061970215bdc1abd3a5b66333.scn" ]
 
 [params]
 
@@ -18,20 +18,20 @@ nodes/custom_script=""
 nodes/storage=0
 nodes/use_legacy_names=true
 materials/location=1
-materials/storage=1
+materials/storage=2
 materials/keep_on_reimport=false
 meshes/octahedral_compression=true
 meshes/compress=4286
 meshes/ensure_tangents=true
-meshes/storage=1
+meshes/storage=2
 meshes/light_baking=0
 meshes/lightmap_texel_size=0.1
 skins/use_named_skins=true
-external_files/store_in_subdir=false
+external_files/store_in_subdir=true
 animation/import=true
 animation/fps=15
 animation/filter_script=""
-animation/storage=true
+animation/storage=2
 animation/keep_custom_tracks=true
 animation/optimizer/enabled=true
 animation/optimizer/max_linear_error=0.05
