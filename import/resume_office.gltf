@@ -556,8 +556,8 @@
     "images" : [
         {
             "mimeType" : "image/png",
-            "name" : "446c075a5e314cd0cf2b243e744c3af0EcNkCflaNHjrCiWb-0.png",
-            "uri" : "textures/446c075a5e314cd0cf2b243e744c3af0EcNkCflaNHjrCiWb-0_png.png"
+            "name" : "Resume0",
+            "uri" : "textures/Resume0.png"
         },
         {
             "mimeType" : "image/png",
@@ -566,8 +566,8 @@
         },
         {
             "mimeType" : "image/png",
-            "name" : "446c075a5e314cd0cf2b243e744c3af0EcNkCflaNHjrCiWb-1.png",
-            "uri" : "textures/446c075a5e314cd0cf2b243e744c3af0EcNkCflaNHjrCiWb-1_png.png"
+            "name" : "Resume1",
+            "uri" : "textures/Resume1.png"
         },
         {
             "mimeType" : "image/png",
@@ -885,7 +885,7 @@
         {
             "bufferView" : 26,
             "componentType" : 5126,
-            "count" : 1129,
+            "count" : 1130,
             "max" : [
                 0.045909468084573746,
                 0.05206919088959694,
@@ -901,13 +901,13 @@
         {
             "bufferView" : 27,
             "componentType" : 5126,
-            "count" : 1129,
+            "count" : 1130,
             "type" : "VEC3"
         },
         {
             "bufferView" : 28,
             "componentType" : 5126,
-            "count" : 1129,
+            "count" : 1130,
             "type" : "VEC2"
         },
         {
@@ -1074,38 +1074,38 @@
         },
         {
             "buffer" : 0,
-            "byteLength" : 13548,
+            "byteLength" : 13560,
             "byteOffset" : 33648
         },
         {
             "buffer" : 0,
-            "byteLength" : 13548,
-            "byteOffset" : 47196
+            "byteLength" : 13560,
+            "byteOffset" : 47208
         },
         {
             "buffer" : 0,
-            "byteLength" : 9032,
-            "byteOffset" : 60744
+            "byteLength" : 9040,
+            "byteOffset" : 60768
         },
         {
             "buffer" : 0,
             "byteLength" : 9720,
-            "byteOffset" : 69776
+            "byteOffset" : 69808
         },
         {
             "buffer" : 0,
             "byteLength" : 96,
-            "byteOffset" : 79496
+            "byteOffset" : 79528
         },
         {
             "buffer" : 0,
             "byteLength" : 384,
-            "byteOffset" : 79592
+            "byteOffset" : 79624
         },
         {
             "buffer" : 0,
             "byteLength" : 384,
-            "byteOffset" : 79976
+            "byteOffset" : 80008
         }
     ],
     "samplers" : [
@@ -1116,7 +1116,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 80360,
+            "byteLength" : 80392,
             "uri" : "resume_office.bin"
         }
     ]

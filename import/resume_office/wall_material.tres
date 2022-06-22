@@ -1,20 +1,20 @@
 [gd_resource type="SpatialMaterial" load_steps=4 format=2]
 
-[ext_resource path="res://import/textures/BakedWallNormal.png" type="Texture" id=1]
-[ext_resource path="res://import/textures/Plaster001_1K_Color.png" type="Texture" id=2]
-[ext_resource path="res://import/textures/Plaster001_1K_Roughness.png" type="Texture" id=3]
+[ext_resource path="res://import/textures/Plaster001_1K_Roughness.png" type="Texture" id=1]
+[ext_resource path="res://import/textures/BakedWallNormal.png" type="Texture" id=2]
+[ext_resource path="res://import/textures/Plaster001_1K_Color.png" type="Texture" id=3]
 
 [resource]
 resource_name = "wall_material"
 vertex_color_use_as_albedo = true
 params_cull_mode = 2
-albedo_texture = ExtResource( 2 )
-metallic_texture = ExtResource( 3 )
+albedo_texture = ExtResource( 3 )
+metallic_texture = ExtResource( 1 )
 metallic_texture_channel = 2
-roughness_texture = ExtResource( 3 )
+roughness_texture = ExtResource( 1 )
 roughness_texture_channel = 1
 normal_enabled = true
 normal_scale = 1.0
-normal_texture = ExtResource( 1 )
+normal_texture = ExtResource( 2 )
 uv1_scale = Vector3( 5, 5, 1 )
 uv1_offset = Vector3( 0, -4, 0 )

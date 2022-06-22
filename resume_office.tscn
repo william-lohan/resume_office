@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=2]
+[gd_scene load_steps=24 format=2]
 
 [ext_resource path="res://import/resume_office.gltf" type="PackedScene" id=1]
 [ext_resource path="res://src/Logic.cs" type="Script" id=2]
@@ -20,6 +20,324 @@ points = PoolVector3Array( 0.0434304, 0.0520599, 0.000599608, 0.0429221, 0.05193
 [sub_resource type="BoxShape" id=4]
 extents = Vector3( 0.126178, 0.00608627, 0.145331 )
 
+[sub_resource type="Animation" id=6]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("resume_0_object:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0.737682, 0.091073 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("resume_0_object:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("resume_1_object:translation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 0.051404, 0.737323, 0.077629 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("resume_1_object:rotation_degrees")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=7]
+resource_name = "Replace0"
+tracks/0/type = "value"
+tracks/0/path = NodePath("resume_0_object:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( -0.069172, 1.09148, 0.738907 ), Vector3( 0, 0.737682, 0.091073 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("resume_0_object:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 90, 0, 0 ), Vector3( 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=8]
+resource_name = "Replace1"
+tracks/0/type = "value"
+tracks/0/path = NodePath("resume_1_object:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( -0.0564389, 1.08884, 0.737969 ), Vector3( 0.051404, 0.737323, 0.077629 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("resume_1_object:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 90, 0, 0 ), Vector3( 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=9]
+resource_name = "View0"
+tracks/0/type = "value"
+tracks/0/path = NodePath("resume_0_object:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0.737682, 0.091073 ), Vector3( -0.069172, 1.09148, 0.738907 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("resume_0_object:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 90, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=10]
+resource_name = "View1"
+tracks/0/type = "value"
+tracks/0/path = NodePath("resume_1_object:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0.051404, 0.737323, 0.077629 ), Vector3( -0.0564389, 1.08884, 0.737969 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("resume_1_object:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 90, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=11]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("resume_0_object:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0.737682, 0.091073 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("resume_0_object:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("resume_1_object:translation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 0.051404, 0.737323, 0.077629 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("resume_1_object:rotation_degrees")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=12]
+resource_name = "Replace0"
+tracks/0/type = "value"
+tracks/0/path = NodePath("resume_0_object:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( -0.069172, 1.09148, 0.738907 ), Vector3( 0, 0.737682, 0.091073 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("resume_0_object:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 90, 0, 0 ), Vector3( 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=13]
+resource_name = "Replace1"
+tracks/0/type = "value"
+tracks/0/path = NodePath("resume_1_object:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( -0.0564389, 1.08884, 0.737969 ), Vector3( 0.051404, 0.737323, 0.077629 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("resume_1_object:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 90, 0, 0 ), Vector3( 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=14]
+resource_name = "View0"
+tracks/0/type = "value"
+tracks/0/path = NodePath("resume_0_object:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0.737682, 0.091073 ), Vector3( -0.069172, 1.09148, 0.738907 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("resume_0_object:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 90, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=15]
+resource_name = "View1"
+tracks/0/type = "value"
+tracks/0/path = NodePath("resume_1_object:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0.051404, 0.737323, 0.077629 ), Vector3( -0.0564389, 1.08884, 0.737969 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("resume_1_object:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 90, 0, 0 ) ]
+}
+
 [node name="Resume Office" instance=ExtResource( 1 )]
 script = ExtResource( 2 )
 
@@ -36,7 +354,7 @@ shape = SubResource( 1 )
 stream = ExtResource( 4 )
 
 [node name="lid_object" parent="laptop/laptop_object" index="0"]
-transform = Transform( 1, 8.74227e-08, 8.74227e-08, -8.74228e-08, 1, 8.74227e-08, -8.74228e-08, -8.74227e-08, 1, -1.82092e-05, 0.00333077, -0.111478 )
+transform = Transform( 1, 0, 8.9407e-08, 0, 1, 0, -8.9407e-08, 0, 1, -1.82092e-05, 0.00333077, -0.111478 )
 
 [node name="Area" type="Area" parent="laptop" index="1"]
 script = ExtResource( 3 )
@@ -91,6 +409,20 @@ margin_bottom = 40.0
 size_flags_horizontal = 8
 pressed = true
 text = "Sound"
+
+[node name="ResumeAnimationPlayer" type="AnimationPlayer" parent="." index="12"]
+anims/RESET = SubResource( 6 )
+anims/Replace0 = SubResource( 7 )
+anims/Replace1 = SubResource( 8 )
+anims/View0 = SubResource( 9 )
+anims/View1 = SubResource( 10 )
+
+[node name="ResumeAnimationPlayer2" type="AnimationPlayer" parent="." index="13"]
+anims/RESET = SubResource( 11 )
+anims/Replace0 = SubResource( 12 )
+anims/Replace1 = SubResource( 13 )
+anims/View0 = SubResource( 14 )
+anims/View1 = SubResource( 15 )
 
 [connection signal="Click" from="desk/Area" to="desk" method="_OnDeskClick"]
 [connection signal="Click" from="laptop/Area" to="." method="_OnLaptopClick"]
