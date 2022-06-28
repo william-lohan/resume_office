@@ -58,8 +58,7 @@ public class Logic : Spatial
 
     public void _OnLaptopClick(InputEvent inputEvent, Vector3 position)
     {
-        // TODO download resume
-        OS.ShellOpen("https://asdf.com/");
+        OS.ShellOpen("./Resume 2022.pdf");
     }
 
     public void _OnLaptopMouseEnter()
