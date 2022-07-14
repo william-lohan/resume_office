@@ -1,6 +1,6 @@
 {
     "asset" : {
-        "generator" : "Khronos glTF Blender I/O v1.8.19",
+        "generator" : "Khronos glTF Blender I/O v3.2.40",
         "version" : "2.0"
     },
     "extensionsUsed" : [
@@ -58,7 +58,7 @@
             "scale" : [
                 1.675041675567627,
                 2.7137038707733154,
-                3.0303030014038086
+                3.0303027629852295
             ]
         },
         {
@@ -81,9 +81,9 @@
             "mesh" : 4,
             "name" : "lid_object",
             "translation" : [
-                -1.8209218978881836e-05,
-                0.0033307671546936035,
-                -0.1114780604839325
+                -1.819804310798645e-05,
+                0.0033308863639831543,
+                -0.1114780530333519
             ]
         },
         {
@@ -98,8 +98,8 @@
                 8.822559356689453
             ],
             "translation" : [
-                0.0048590898513793945,
-                -0.9286942481994629,
+                0.004859030246734619,
+                -0.9286947250366211,
                 0.11184060573577881
             ]
         },
@@ -110,9 +110,9 @@
             "name" : "laptop",
             "rotation" : [
                 0,
-                0.17364825308322906,
+                0.17364823818206787,
                 0,
-                0.9848078489303589
+                0.9848077297210693
             ],
             "scale" : [
                 0.16016848385334015,
@@ -555,44 +555,44 @@
     ],
     "images" : [
         {
-            "mimeType" : "image/png",
+            "mimeType" : "image/jpeg",
             "name" : "Resume0",
-            "uri" : "textures/Resume0.png"
+            "uri" : "textures/Resume0.jpg"
         },
         {
-            "mimeType" : "image/png",
+            "mimeType" : "image/jpeg",
             "name" : "BakedResume0Ruff",
-            "uri" : "textures/BakedResume0Ruff.png"
+            "uri" : "textures/BakedResume0Ruff.jpg"
         },
         {
-            "mimeType" : "image/png",
+            "mimeType" : "image/jpeg",
             "name" : "Resume1",
-            "uri" : "textures/Resume1.png"
+            "uri" : "textures/Resume1.jpg"
         },
         {
-            "mimeType" : "image/png",
+            "mimeType" : "image/jpeg",
             "name" : "BakedResume1Ruff",
-            "uri" : "textures/BakedResume1Ruff.png"
+            "uri" : "textures/BakedResume1Ruff.jpg"
         },
         {
-            "mimeType" : "image/png",
+            "mimeType" : "image/jpeg",
             "name" : "BakedWallNormal",
-            "uri" : "textures/BakedWallNormal.png"
+            "uri" : "textures/BakedWallNormal.jpg"
         },
         {
-            "mimeType" : "image/png",
+            "mimeType" : "image/jpeg",
             "name" : "Plaster001_1K_Color",
-            "uri" : "textures/Plaster001_1K_Color.png"
+            "uri" : "textures/Plaster001_1K_Color.jpg"
         },
         {
-            "mimeType" : "image/png",
+            "mimeType" : "image/jpeg",
             "name" : "Plaster001_1K_Roughness",
-            "uri" : "textures/Plaster001_1K_Roughness.png"
+            "uri" : "textures/Plaster001_1K_Roughness.jpg"
         },
         {
-            "mimeType" : "image/png",
+            "mimeType" : "image/jpeg",
             "name" : "BakedDeskNormal",
-            "uri" : "textures/BakedDeskNormal.png"
+            "uri" : "textures/BakedDeskNormal.jpg"
         },
         {
             "mimeType" : "image/jpeg",
@@ -600,59 +600,59 @@
             "uri" : "textures/wood_table_001_diff_1k.jpg"
         },
         {
-            "mimeType" : "image/png",
+            "mimeType" : "image/jpeg",
             "name" : "wood_table_001_rough_1k",
-            "uri" : "textures/wood_table_001_rough_1k.png"
+            "uri" : "textures/wood_table_001_rough_1k.jpg"
         },
         {
-            "mimeType" : "image/png",
+            "mimeType" : "image/jpeg",
             "name" : "BakedLidNormal",
-            "uri" : "textures/BakedLidNormal.png"
+            "uri" : "textures/BakedLidNormal.jpg"
         },
         {
-            "mimeType" : "image/png",
+            "mimeType" : "image/jpeg",
             "name" : "Plastic011_1K_Color",
-            "uri" : "textures/Plastic011_1K_Color.png"
+            "uri" : "textures/Plastic011_1K_Color.jpg"
         },
         {
-            "mimeType" : "image/png",
+            "mimeType" : "image/jpeg",
             "name" : "Plastic011_1K_Roughness",
-            "uri" : "textures/Plastic011_1K_Roughness.png"
+            "uri" : "textures/Plastic011_1K_Roughness.jpg"
         },
         {
-            "mimeType" : "image/png",
+            "mimeType" : "image/jpeg",
             "name" : "Screen",
-            "uri" : "textures/Screen.png"
+            "uri" : "textures/Screen.jpg"
         },
         {
-            "mimeType" : "image/png",
+            "mimeType" : "image/jpeg",
             "name" : "BakedLaptopBottomNormal",
-            "uri" : "textures/BakedLaptopBottomNormal.png"
+            "uri" : "textures/BakedLaptopBottomNormal.jpg"
         },
         {
-            "mimeType" : "image/png",
+            "mimeType" : "image/jpeg",
             "name" : "BakedLaptopBottomColor",
-            "uri" : "textures/BakedLaptopBottomColor.png"
+            "uri" : "textures/BakedLaptopBottomColor.jpg"
         },
         {
-            "mimeType" : "image/png",
+            "mimeType" : "image/jpeg",
             "name" : "BakedLaptopBottomRuff",
-            "uri" : "textures/BakedLaptopBottomRuff.png"
+            "uri" : "textures/BakedLaptopBottomRuff.jpg"
         },
         {
-            "mimeType" : "image/png",
+            "mimeType" : "image/jpeg",
             "name" : "CupNormal",
-            "uri" : "textures/CupNormal.png"
+            "uri" : "textures/CupNormal.jpg"
         },
         {
-            "mimeType" : "image/png",
+            "mimeType" : "image/jpeg",
             "name" : "Cup",
-            "uri" : "textures/Cup.png"
+            "uri" : "textures/Cup.jpg"
         },
         {
-            "mimeType" : "image/png",
+            "mimeType" : "image/jpeg",
             "name" : "CupRuff",
-            "uri" : "textures/CupRuff.png"
+            "uri" : "textures/CupRuff.jpg"
         }
     ],
     "accessors" : [
@@ -885,7 +885,7 @@
         {
             "bufferView" : 26,
             "componentType" : 5126,
-            "count" : 1130,
+            "count" : 1128,
             "max" : [
                 0.045909468084573746,
                 0.05206919088959694,
@@ -901,13 +901,13 @@
         {
             "bufferView" : 27,
             "componentType" : 5126,
-            "count" : 1130,
+            "count" : 1128,
             "type" : "VEC3"
         },
         {
             "bufferView" : 28,
             "componentType" : 5126,
-            "count" : 1130,
+            "count" : 1128,
             "type" : "VEC2"
         },
         {
@@ -1074,38 +1074,38 @@
         },
         {
             "buffer" : 0,
-            "byteLength" : 13560,
+            "byteLength" : 13536,
             "byteOffset" : 33648
         },
         {
             "buffer" : 0,
-            "byteLength" : 13560,
-            "byteOffset" : 47208
+            "byteLength" : 13536,
+            "byteOffset" : 47184
         },
         {
             "buffer" : 0,
-            "byteLength" : 9040,
-            "byteOffset" : 60768
+            "byteLength" : 9024,
+            "byteOffset" : 60720
         },
         {
             "buffer" : 0,
             "byteLength" : 9720,
-            "byteOffset" : 69808
+            "byteOffset" : 69744
         },
         {
             "buffer" : 0,
             "byteLength" : 96,
-            "byteOffset" : 79528
+            "byteOffset" : 79464
         },
         {
             "buffer" : 0,
             "byteLength" : 384,
-            "byteOffset" : 79624
+            "byteOffset" : 79560
         },
         {
             "buffer" : 0,
             "byteLength" : 384,
-            "byteOffset" : 80008
+            "byteOffset" : 79944
         }
     ],
     "samplers" : [
@@ -1116,7 +1116,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 80392,
+            "byteLength" : 80328,
             "uri" : "resume_office.bin"
         }
     ]

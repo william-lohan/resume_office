@@ -1,8 +1,8 @@
 [gd_resource type="SpatialMaterial" load_steps=4 format=2]
 
-[ext_resource path="res://import/textures/BakedDeskNormal.png" type="Texture" id=1]
+[ext_resource path="res://import/textures/BakedDeskNormal.jpg" type="Texture" id=1]
 [ext_resource path="res://import/textures/wood_table_001_diff_1k.jpg" type="Texture" id=2]
-[ext_resource path="res://import/textures/wood_table_001_rough_1k.png" type="Texture" id=3]
+[ext_resource path="res://import/textures/wood_table_001_rough_1k.jpg" type="Texture" id=3]
 
 [resource]
 resource_name = "desk_material"
