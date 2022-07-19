@@ -35,7 +35,6 @@ fn spawn_scene(
 // the scene with `EntityInMyScene`. All entities from the second scene will be
 // tagged
 fn scene_update(
-    mut commands: Commands,
     scene_spawner: Res<SceneSpawner>,
     scene_instance: Res<SceneInstance>,
     mut done: Local<bool>,

@@ -2762,6 +2762,7 @@ dependencies = [
  "bevy",
  "bevy-inspector-egui",
  "bevy_mod_picking",
+ "console_error_panic_hook",
 ]
 
 [[package]]

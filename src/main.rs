@@ -9,6 +9,10 @@ mod inspector;
 mod scene;
 
 fn main() {
+    // When building for WASM, print panics to the browser console
+    #[cfg(target_arch = "wasm32")]
+    console_error_panic_hook::set_once();
+    
     App::new()
         // make sure to add any config resources first, before Bevy:
         .insert_resource(WindowDescriptor {
